@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="myStyles.css">
+  <title>Checkbox Demo</title>
+</head>
+<body>
+  <div id="mainDiv">
+    <h1>Checkbox Demo</h1>
+    
+    <h3>Demonstrates checkboxes</h3>
+    
+    <form action = "checkDemoAction2.php" method="post">
+    
+    <h3>What would you like with your order?</h3>
+    <ul>
+      <li><input type = "checkbox"
+                 name = "chkFries"
+                 value = "1.00">Fries
+      </li>
+      <li><input type = "checkbox"
+                 name = "chkSoda"
+                 value = ".85">Soda
+      </li>
+      <li><input type = "checkbox"
+                 name = "chkShake"
+                 value = "1.30">Shake
+      </li>
+      <li><input type = "checkbox"
+                 name = "chkKetchup"
+                 value = ".05">Ketchup
+      </li>
+    </ul>
+    
+    <input type = "submit" value="Place your order">
+    </form>
+  </div>
+</body>
+</html>
