@@ -1,0 +1,8 @@
+h1, h2, h3, h4 {
+
+	font-family: 'Signika', sans-serif;
+}
+
+ul {
+	list-style-image: url("purple_heart.png");
+}
